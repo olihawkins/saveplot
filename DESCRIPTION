@@ -1,0 +1,16 @@
+Package: saveplot
+Type: Package
+Title: Utility functions for saving high quality plots
+Version: 0.1.0
+Author: Oliver Hawkins
+Maintainer: Oliver Hawkins <oli@olihawkins.com>
+Description: The saveplot package provides utility functions for saving high 
+    quality plots to svg and png formats for publication in print and online.
+License: BSD_3_clause + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rsvg,
+    stringr,
+    uuid
+RoxygenNote: 6.1.1
