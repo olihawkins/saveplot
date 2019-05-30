@@ -15,7 +15,7 @@ save_png(plot, filename, width, height, ppi = 400)
 
 \item{height}{Height of the image in inches.}
 
-\item{ppi}{Number of pixels per inch for the png. The deafult is 400.}
+\item{ppi}{Number of pixels per inch for the png. The default is 400.}
 }
 \description{
 Save a plot as a png
