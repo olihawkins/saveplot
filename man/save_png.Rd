@@ -4,7 +4,7 @@
 \alias{save_png}
 \title{Save a plot as a png}
 \usage{
-save_png(plot, filename, width, height, ppi = 220)
+save_png(plot, filename, width, height, ppi = 400)
 }
 \arguments{
 \item{plot}{A plot object.}
@@ -15,7 +15,7 @@ save_png(plot, filename, width, height, ppi = 220)
 
 \item{height}{Height of the image in inches.}
 
-\item{ppi}{Number of pixels per inch for the png.}
+\item{ppi}{Number of pixels per inch for the png. The deafult is 400.}
 }
 \description{
 Save a plot as a png

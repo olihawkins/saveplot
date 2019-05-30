@@ -1,7 +1,7 @@
 Package: saveplot
 Type: Package
 Title: Utility functions for saving high quality plots
-Version: 0.1.0
+Version: 0.1.1
 Author: Oliver Hawkins
 Maintainer: Oliver Hawkins <oli@olihawkins.com>
 Description: The saveplot package provides utility functions for saving high 

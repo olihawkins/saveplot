@@ -21,10 +21,10 @@ save_svg <- function(plot, filename, width, height) {
 #' @param filename Filename to save to a png.
 #' @param width Width of the image in inches.
 #' @param height Height of the image in inches.
-#' @param ppi Number of pixels per inch for the png.
+#' @param ppi Number of pixels per inch for the png. The deafult is 400.
 #' @export
 
-save_png <- function(plot, filename, width, height, ppi = 220) {
+save_png <- function(plot, filename, width, height, ppi = 400) {
 
         svgname <- file.path(
             tempdir(),
