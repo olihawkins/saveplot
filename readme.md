@@ -26,7 +26,7 @@ Save an svg with the following arguments:
 * __width__ Width of the image in inches.
 * __height__ Height of the image in inches.
 
-_saveplot_::__save_png__(_plot_, _filename_, _width_, _height_, _ppi = 220_)
+_saveplot_::__save_png__(_plot_, _filename_, _width_, _height_, _ppi = 400_)
 
 Save a png with the following arguments:
 
